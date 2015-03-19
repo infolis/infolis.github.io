@@ -1,0 +1,11 @@
+# Site settings
+title: InFoLis
+email: 
+description: > 
+  This is the home page of the Infolis II project
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://infolis.github.io" # the base hostname & protocol for your site
+github_username: infolis
+
+# Build settings
+markdown: kramdown
