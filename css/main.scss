@@ -11,7 +11,7 @@ $base-font-size:   16px;
 $small-font-size:  $base-font-size * 0.875;
 $base-line-height: 1.5;
 
-$spacing-unit:     30px;
+$spacing-unit:     5px;
 
 $text-color:       #111;
 $background-color: #fdfdfd;
@@ -22,7 +22,7 @@ $grey-color-light: lighten($grey-color, 40%);
 $grey-color-dark:  darken($grey-color, 25%);
 
 // Width of the content area
-$content-width:    800px;
+$content-width:    1024px;
 
 $on-palm:          600px;
 $on-laptop:        800px;
@@ -50,3 +50,25 @@ $on-laptop:        800px;
         "layout",
         "syntax-highlighting"
 ;
+
+dl {
+  dt {
+    font-weight: bold;
+    /* float:left; */
+    margin-right: 1em;
+    &:after {
+      content: ":"
+    }
+  }
+}
+
+figure {
+  width: 300px;
+  float: left;
+  /* figcaption { */
+  /*   position: absolute; */
+  /* } */
+}
+h1,h2,h3,h4,h5,h6 * {
+  clear: both;
+}

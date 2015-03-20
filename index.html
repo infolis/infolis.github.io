@@ -4,18 +4,21 @@ layout: default
 
 <div class="home">
 
-  ...
+  <p>
+    Greetings, fellow afficionado of publication-dataset-integration.
+  </p>
 
-  <h2 class="page-heading">Posts</h1>
+  <p>
+    Find information about Infolis <a href="/about-en">in English</a> and <a href="/about-de/">in German</a>.
+  </p>
+
+  <h2 class="page-heading">News</h1>
 
   <ul class="post-list">
     {% for post in site.posts %}
       <li>
         <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-        <h3>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h3>
+        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
       </li>
     {% endfor %}
   </ul>
