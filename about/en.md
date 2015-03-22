@@ -4,28 +4,20 @@ title: DFG-Project InFoLiS II
 permalink: /about-en/
 ---
 
-Kontakt
-: [Konstantin Baierer](mailto:konstantin.baierer@bib.uni-mannheim.de) and [Philipp Zumstein](mailto:philipp.zumstein@bib.uni-mannheim.de)
-
-Förderung
-: German Research Foundation (DFG)
-
-Projektlaufzeit
-: 2014 - 2016
-
 Project collaborators
 : * [GESIS – Leibniz Institute for the Social Sciences](http://www.gesis.org/)
   * [Research Group Data and Web Science at Mannheim University](http://dws.informatik.uni-mannheim.de/)
   * [University Library Mannheim](http://www.ub.uni-mannheim.de)
   
-The project InFoLiS II is a continuation of the
-[InFoLiS project (2012-2014)](http://www.bib.uni-mannheim.de/1158.html). 
+Granted by
+: [German Research Foundation (DFG)](http://www.dfg.de/)
 
-A cooperation between the [Research Group Data and Web Science at Mannheim
-University](http://dws.informatik.uni-mannheim.de/), [University Library
-Mannheim](http://www.ub.uni-mannheim.de) and
-[GESIS](http://www.gesis.org/forschung/drittmittelprojekte/projektuebersicht-drittmittel/InFoLiS-ii/),
-InFoLiS developed heuristical algorithms to extract references to research
+Duration of the Project
+: 2014 - 2016
+
+The project InFoLiS II is a continuation of the
+InFoLiS project (2012-2014), where 
+we developed heuristical algorithms to extract references to research
 datasets from publications in the field of Social Science and to integrate
 those links into the [Primo Search Portal of Mannheim University
 Library](http://www.ub.uni-mannheim.de/133.html) and the [Datenbestandskatalog
@@ -101,5 +93,5 @@ will also be a focus of the project.
 
 * [InFoLiS II at the Research Group Data and Web Science](http://dws.informatik.uni-mannheim.de/en/projects/current-projects/)
 * [InFoLiS II at GESIS](http://www.gesis.org/forschung/drittmittelprojekte/projektuebersicht-drittmittel/InFoLiS-ii/)
+* [InFoLiS II at the Mannheim University Library](http://bib.uni-mannheim.de/1399.html?&L=0)
 * [InFoLiS II on the pages of DFG](http://gepris.dfg.de/gepris/projekt/189200501)
-* [InFoLiS II Open Source Software on github](http://github.com/infolis)
