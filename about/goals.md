@@ -1,10 +1,10 @@
 ---
 layout: page
-title: DFG-Project InFoLiS II Goals
+title: Current Goals
 permalink: /about-goals/
 ---
 
-InFoLiS II has three main goals:
+The current main goals are:
 
 ## 1. Expansion to other disciplines and languages
 
@@ -24,7 +24,7 @@ We aim to build a flexible, and long-term sustainable infrastructure to house
 the algorithms developed in the precursor project for finding links between
 publications and datasets and embedding them into existing systems.
 
-Based on the paradigms of [Linked Data](TODO) and [RESTful](TODO) web services,
+Based on the paradigms of [Linked Data](http://linkeddatabook.com/editions/1.0/) and [RESTful](http://www.ics.uci.edu/~fielding/pubs/dissertation/rest_arch_style.htm) web services,
 all the steps of the [InfoLink][http://github.com/infolis/infoLink] toolkit
 will be implemented as self-contained components and workflows will be set into
 place to automatically update our knowledge base with new data on a regular basis.
@@ -53,10 +53,3 @@ To formalize this, we will develop an ontology, reusing the DDI-RDF Discovery
 Vocabulary developed by the Data Documentation Initiative. The resulting
 improvements of the search process and the reusability of the links in general
 will also be a focus of the project.
-
-## Additional Links
-
-* [InFoLiS II at the Research Group Data and Web Science](http://dws.informatik.uni-mannheim.de/en/projects/current-projects/)
-* [InFoLiS II at GESIS](http://www.gesis.org/forschung/drittmittelprojekte/projektuebersicht-drittmittel/InFoLiS-ii/)
-* [InFoLiS II at the Mannheim University Library](http://bib.uni-mannheim.de/1399.html?&L=0)
-* [InFoLiS II on the pages of DFG](http://gepris.dfg.de/gepris/projekt/189200501)
