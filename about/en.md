@@ -23,7 +23,7 @@ those links into the [Primo Search Portal of Mannheim University
 Library](http://www.ub.uni-mannheim.de/133.html) and the [Datenbestandskatalog
 of GESIS](https://dbk.gesis.org/dbksearch/index.asp).
 
-In the current phase of the project, the goal is to extend the results of the
+In the current phase of the project, the <a class="page-link" href="/about-goals/">goal</a> is to extend the results of the
 previous project, in terms of quality, quantity and supported languages.
 Furthermore, the technical infrastructure will be developed further to provide
 a solid and vendor-independent foundation for the algorithms. Last but not
