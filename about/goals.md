@@ -26,11 +26,11 @@ publications and datasets and embedding them into existing systems.
 
 Based on the paradigms of [Linked Data](http://linkeddatabook.com/editions/1.0/) and [RESTful](http://www.ics.uci.edu/~fielding/pubs/dissertation/rest_arch_style.htm) web services,
 all the steps of the [InfoLink](http://github.com/infolis/infoLink) toolkit
-will be implemented as self-contained components and workflows will be set into
+are being implemented as self-contained components and workflows are being set into
 place to automatically update our knowledge base with new data on a regular basis.
 
 We embrace wide-spread usage of the links detected by InfoLink. To work towards
-wider acceptance, we will develop software to integrate those links into existing research platforms
+wider acceptance, we are developing software to integrate those links into existing research platforms
 such as publication databases, research data repositories, research infrastructure databases
 and discovery platforms.
 
@@ -52,4 +52,4 @@ dataset varies widely as well.
 To formalize this, we will develop an ontology, reusing the DDI-RDF Discovery
 Vocabulary developed by the Data Documentation Initiative. The resulting
 improvements of the search process and the reusability of the links in general
-will also be a focus of the project.
+are also a focus of the project.
