@@ -29,12 +29,12 @@ Furthermore, the technical infrastructure will be developed further to provide
 a solid and vendor-independent foundation for the algorithms. Last but not
 least, the nature of publication-dataset links will be thoroughly examined and
 formalized to allow more fine-grained description of these links.
-
+<br />
+{% include figure.html src="/about/infolis-recherche.jpg" caption="Seaching a publication can lead to a dataset and vice versa" %}
+<br />
 {% include figure.html src="/about/32a7c93ae7.png" caption="What does 'ALLBUS' refer to here?" %}
 
-{% include figure.html src="/about/infolis-recherche.jpg" caption="Seaching a publication can lead to a dataset and vice versa" %}
-
-{% include figure.html src="/about/visualize-links_01.png" caption="Links between Research Data and Publications" %}
+<!--{% include figure.html src="/about/visualize-links_01.png" caption="Links between Research Data and Publications" %}-->
 
 ## External Links
 
