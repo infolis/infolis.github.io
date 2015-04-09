@@ -6,5 +6,5 @@ categories: infolis conference
 ---
 
 Katarina Boland and Philipp Zumstein will present the InfoLink methodology and
-infrastructure at this year's [CNI](TODO) meeting in Seattle, Washington, USA.
+infrastructure at this year's [CNI](http://www.cni.org/pbs/integration-of-research-literature-and-data-infolis/) meeting in Seattle, Washington, USA.
 
