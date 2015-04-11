@@ -13,7 +13,7 @@ Granted by
 : [German Research Foundation (DFG)](http://www.dfg.de/)
 
 Duration of the Project
-: * 2012 - 2014 (first phase)
+: * 2011 - 2013 (first phase)
   * 2014 - 2016 (second phase)
 
 In the first project phase 
