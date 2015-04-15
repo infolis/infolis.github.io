@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Slides from our talk at CNI meeting"
-date:   2015-04-15 17:34:00
+date:   2015-04-14 17:34:00
 categories: infolis conference slides
 ---
 
