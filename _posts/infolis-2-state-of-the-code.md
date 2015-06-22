@@ -7,8 +7,8 @@ categories: infolis code
 
 It has been a busy six months of coding in the second funding phase of the InFoLiS project!
 
-[Katarina Boland](https://github.com/bolandka), [Dominique Ritze](https://github.com/Dommii) 
-and [Konstantin Baierer](http://github.com/kba) have refactored the InfoLink code base from
+[bolandka](https://github.com/bolandka), [dommii](https://github.com/Dommii) 
+and [kba](http://github.com/kba) have refactored the InfoLink code base from
 its [state at the end of the original InFoLiS project](https://github.com/infolis/infoLink/tree/bfee929d8416a81b7c2862a220ac9dca1463d1bf)
 into a [state](https://github.com/infolis/infoLink/tree/0a8eea2b7a58322e6fb72ef0857e2ac1d7d12d0d)
 where the internal dependencies are vastly reduced by using
