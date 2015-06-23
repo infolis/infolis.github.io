@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "InFoLiS II - State of the Code"
-date:   2015-06-24 09:00:00
+date:   2015-06-23 11:05:00
 categories: infolis code
 ---
 
