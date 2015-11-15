@@ -24,7 +24,7 @@ layout: default
 </div>
 <div class="row">
   <div class="parts">
-    <div class="col-md-2 col-md-offset-1">
+    <div class="col-md-2 col-md-offset-2">
       <div class="part">
         <a href="/about">
           <span>
@@ -41,16 +41,6 @@ layout: default
             <img src="/img/icon-swagger.png"/>
           </span>
           <span class="btn">Explore our API</span>
-        </a>
-      </div>
-    </div>
-    <div class="col-md-2">
-      <div class="part">
-        <a href="/blog">
-          <span>
-            <img src="https://upload.wikimedia.org/wikipedia/commons/d/d9/Rss-feed.svg"/>
-          </span>
-          <span class="btn">Read our Blog</span>
         </a>
       </div>
     </div>
@@ -73,6 +63,25 @@ layout: default
           <span class="btn">Linked Data Fragments</span>
         </a>
       </div>
+    </div>
+  </div>
+</div>
+<div class="row">
+  <div class="col-md-6 col-md-offset-3">
+    <div class="posts">
+      <h2>Newest blog entries</h2>
+      {% for post in site.posts limit:5 %}
+      <div class="post-teaser">
+        <header>
+          <span class="meta">
+            {{ post.date | date: "%B %-d, %Y" }}
+          </span>
+          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
+            {{ post.title }}
+          </a>
+        </header>
+      </div>
+      {% endfor %}
     </div>
   </div>
 </div>
