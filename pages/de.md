@@ -1,7 +1,8 @@
 ---
 layout: page
-title: DFG-Projekt InFoLiS II
+title: Über InFoLiS II (de)
 permalink: /about-de/
+// feature-img: "img/back2.png"
 ---
 
 Kontakt

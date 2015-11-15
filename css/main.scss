@@ -1,74 +1,101 @@
 ---
-# Only the main Sass file needs front matter (the dashes are enough)
 ---
-@charset "utf-8";
+// External
+@import 'external/reset';
+@import 'external/syntax';
 
+// Base
+@import 'base/variables';
+@import 'base/global';
+@import 'base/utility';
 
+// Posts
+@import 'layouts/posts';
+@import 'layouts/index';
 
-// Our variables
-$base-font-family: Helvetica, Arial, sans-serif;
-$base-font-size:   16px;
-$small-font-size:  $base-font-size * 0.875;
-$base-line-height: 1.5;
+// Partials
+@import 'includes/header';
+@import 'includes/footer';
 
-$spacing-unit:     5px;
-
-$text-color:       #111;
-$background-color: #fdfdfd;
-$brand-color:      #2a7ae2;
-
-$grey-color:       #828282;
-$grey-color-light: lighten($grey-color, 40%);
-$grey-color-dark:  darken($grey-color, 25%);
-
-// Width of the content area
-$content-width:    1024px;
-
-$on-palm:          600px;
-$on-laptop:        800px;
-
-
-
-// Using media queries with like this:
-// @include media-query($on-palm) {
-//     .wrapper {
-//         padding-right: $spacing-unit / 2;
-//         padding-left: $spacing-unit / 2;
-//     }
-// }
-@mixin media-query($device) {
-    @media screen and (max-width: $device) {
-        @content;
-    }
+.tool {
+  width: 100%;
+  height: auto;
+  //margin-left: 10%;
+  //margin-right: 10%;
+  //padding-left: 10%;
+  //padding-right: 10%;
+  display: inline-block;
+position: relative;
+background-color: #fff //#ffba6f
 }
 
 
-
-// Import partials from `sass_dir` (defaults to `_sass`)
-@import
-        "base",
-        "layout",
-        "syntax-highlighting"
-;
-
-dl {
-  dt {
-    font-weight: bold;
-    /* float:left; */
-    margin-right: 1em;
-    &:after {
-      content: ":"
-    }
-  }
+.goal {
+background: #96e089;
+width: 50%;
+height: 100%;
+display: inline-block;
 }
 
-figure {
-  width: 300px;
-  float: left;
-  /* figcaption { */
-  /*   position: absolute; */
-  /* } */
+.sep {
+background: #2277b0;
+display: inline-block;
+width: 100%;
 }
-h1,h2,h3,h4,h5,h6 * {
-  clear: both;
+
+.tool_left {
+  width:  30%;
+  height: auto;
+  background: rgba(150,224,137,0.4);
+  //margin-right: 2%;
+  margin-left: 3%;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  padding: 1em;
+  display: inline-block;
+	float: left;
+	//box-shadow: 5px 5px 5px 5px;
+//border-radius: 2em;
+}
+.tool_center {
+  width:  30%;
+  height: auto;
+  background: rgba(34,119,240,0.4);
+  //margin-right: 2%;
+  margin-left: 2%; 
+  margin-top: 1em;
+  margin-bottom: 1em;
+  padding: 1em;
+  display: inline-block;
+	float: left;
+	//box-shadow: 5px 5px 5px 5px;
+//border-radius: 2em;
+}
+.tool_right {
+  width:  30%;
+  height: auto;
+  background: rgba(216,38,38,0.4);
+  //margin-right: 2%;
+  margin-left: 2%;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  padding: 1em;
+  display: inline-block;
+	float: left;
+	//box-shadow: 5px 5px 5px 5px;
+//border-radius: 2em;
+}
+.intro {
+background: rgba(34,119,176,0.7);
+padding: 1em;
+margin-right: 3em;
+border-radius: 1em;
+//border: 1px solid white;
+}
+.image {
+margin: auto;
+width: 50px;
+height: 50px;
+padding: auto;
+border-radius: 50%;
 }
