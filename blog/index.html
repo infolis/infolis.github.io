@@ -3,7 +3,7 @@ layout: default
 title: InFoLiS Blog
 ---
 <div class="row">
-  <div class="col-md-10 col-md-offset-1">
+  <div class="col-md-7 col-md-offset-1">
     <div class="posts">
       {% for post in paginator.posts %}
       <div class="post-teaser">
@@ -26,6 +26,10 @@ title: InFoLiS Blog
       </div>
       {% endfor %}
     </div>
+  </div>
+  <div class="col-md-3">
+    <a class="twitter-timeline" href="https://twitter.com/infolis_project" data-widget-id="665970218917896194">Tweets von @infolis_project </a>
+    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
   </div>
 </div>
 
