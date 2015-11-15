@@ -1,104 +1,68 @@
 ---
 layout: default
 ---
-
-<div class="home">
-  {% if site.theme.header_text %}
-  <div class="call-out" 
-  style="background-image: url('{{ site.baseurl }}/{{ site.theme.header_text_feature_image }}')">
-  
-    {{ site.theme.header_text }}
-    
-    <div class="intro"><font color=white>The goal of the InFoLiS project is to connect research data and publications. Links between data and literature are created automatically and made available for seamless integration into different retrieval systems. This enables scientists to directly access information about research data in literature information systems.</font><br> <a class="button2" href="www.web.de">Explore</a></div>
-    
-  </div>
-  {% endif %}
-<div class="parts">
-
-<!--</div>
-<div class="goal">
-    <div class="image"><a href="/about-en"><img src="img/goal.png"/></a></div>
-    <a href="/about-en"><h2>Goal</h2></a>
-<font size="5"><b>The goal of the InFoLiS project is to connect research data and publications. Links between data and literature are created automatically by means of text mining and made available as Linked Open Data (LOD) for seamless integration into different retrieval systems. This enables scientists to directly access information about corresponding research data in a literature information system, and, vice versa, it is possible to directly find different interpretations and analyses in the literature of the same research data.</b></font>
-  </div>
-<div class="sep">
-<h1><font color=white>Explore our tools</font></h1>
-</div>-->
-<div class="sep">
-<h1><font color=white>explore our tools</font></h1>
-</div>
-<div class="tool">
-  
-  
-  <div class="tool_left">
-	  <div class="image"><a href="/API"><img src="img/swagger.png"/></a></div>
-    <a href="/API"><h2 align=center>Infolink API</h2></a>
-    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
-    <br>
-    <a class="button" href="/API/">
-          Read more...
-        </a>
-  </div>
-  <div class="tool_center">
-	  <div class="image"><a href="/Schema"><img src="img/test.png"/></a></div>
-    <a href="/Schema"><h2 align=center>Infolink Schema</h2></a>
-    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
-    <br>
-    <a class="button" href="/Schema/">
-          Read more...
-        </a>
-  </div>
-  <div class="tool_right">
-	  <div class="image"><a href="LD"><img src="img/ldf.png"/></a></div>
-    <a href="LD"><h2 align=center>Linked Data Fragments</h2></a>
-    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. 
-    <br>
-    <a class="button" href="/LDF/">
-          Read more...
-        </a>
+<script>
+  $(function($) {
+    $("body").addClass("home");
+  });
+</script>
+<div class="row">
+  <div class="col-md-8 col-md-offset-1">
+    <h1>
+      Linking Research Data and Publications
+    </h1>
   </div>
 </div>
-<div class="sep">
-<h1><font color=white>Recent News</font></h1>
+<div class="row">
+  <div class="col-md-9 col-md-offset-2">
+    <div class="call-out">
+      <div class="intro">
+        The goal of the InFoLiS project is to connect research data and publications. Links between data and literature are created automatically and made available for seamless integration into different retrieval systems.
+      </div>
+    </div>
+  </div>
 </div>
-  <div class="posts">
-	  
-    {% for post in paginator.posts %}
-    <div class="post-teaser">
-      <header>
-        <h1>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
-            {{ post.title }}
-          </a>
-        </h1>
-        <p class="meta">
-          {{ post.date | date: "%B %-d, %Y" }}
-        </p>
-      </header>
-      <div class="excerpt">
-        {{ post.excerpt }}
-        <a class="button" href="{{ post.url | prepend: site.baseurl }}">
-          {{ site.theme.str_continue_reading }}
+<div class="row">
+  <div class="parts">
+    <div class="col-md-2 col-md-offset-1">
+      <div class="part">
+        <a href="{{ site.baseurl_api }}/api">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Icon-round-Question_mark.jpg/240px-Icon-round-Question_mark.jpg"/>
+          <span class="btn btn-default" >Learn More</span>
         </a>
       </div>
     </div>
-    {% endfor %}
+    <div class="col-md-2">
+      <div class="part">
+        <a href="{{ site.baseurl_api }}/api">
+          <img src="/img/icon-swagger.png"/>
+          <span class="btn btn-default" >Explore our API</span>
+        </a>
+      </div>
+    </div>
+    <div class="col-md-2">
+      <div class="part">
+        <a href="/blog">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/d/d9/Rss-feed.svg"/>
+          <span class="btn btn-default" >Read our Blog</span>
+        </a>
+      </div>
+    </div>
+    <div class="col-md-2">
+      <div class="part">
+        <a href="{{ site.baseurl_api }}/schema">
+          <img src="/img/icon-schema.png"/>
+          <span class="btn btn-default" >Explore our Schema</span>
+        </a>
+      </div>
+    </div>
+    <div class="col-md-2">
+      <div class="part">
+        <a href="{{ site.baseurl_api }}/api">
+          <img src="/img/icon-ldf.png"/>
+          <span class="btn btn-default" >Linked Data Fragments</span>
+        </a>
+      </div>
+    </div>
   </div>
-
-  {% if paginator.total_pages > 1 %}
-  <div class="pagination">
-    {% if paginator.previous_page %}
-    <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}" class="button" >
-      <i class="fa fa-chevron-left"></i>
-      {{ site.theme.str_prev }}
-    </a>
-    {% endif %}
-    {% if paginator.next_page %}
-    <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}" class="button" >
-      {{ site.theme.str_next }}
-      <i class="fa fa-chevron-right"></i>
-    </a>
-    {% endif %}
-  </div>
-  {% endif %}
 </div>

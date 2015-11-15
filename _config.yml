@@ -1,5 +1,6 @@
 # SITE CONFIGURATION
 baseurl: "" # the subpath of your site, e.g. /blog/
+baseurl_api: "http://infolis.gesis.org/infolink"
 url: "http://infolis.github.io" # the base hostname & protocol for your site
 
 # THEME-SPECIFIC CONFIGURATION
