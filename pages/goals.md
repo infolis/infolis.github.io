@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Current Goals
-permalink: /about-goals/
+permalink: /goals/
 ---
 
 The current main goals are:
