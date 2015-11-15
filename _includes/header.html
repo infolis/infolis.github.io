@@ -1,5 +1,7 @@
 <header id="site-header">
+  <nav class="navbar navbar-inverse navbar-static-top">
+  </nav>
 </header>
 <script>
-  $("#site-header").load("{{ site.baseurl_api }}/_header");
+  $("#site-header").load("{{ site.baseurl_api }}/_header?site_github=http://" + window.location.host);
 </script>
