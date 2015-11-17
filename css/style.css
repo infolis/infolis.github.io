@@ -126,4 +126,5 @@ li.selected { background: #ffba6f; }
 .status-PENDING  { background: #ccccff; }
 .status-STARTED  { background: #ffffcc; }
 
-svg width
+/* vim syntax overrides */
+u { text-decoration: none }
