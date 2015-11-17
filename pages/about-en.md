@@ -26,7 +26,7 @@ of GESIS](https://dbk.gesis.org/dbksearch/index.asp). Figure 1 shows the basic i
 {% include figure.html src="/img/infolis-research.png" caption="Figure 1: Seaching a publication can lead to a dataset and vice versa" %}
 
 
-In the current phase of the project, the <a class="page-link" href="/about-goals/">goal</a> is to extend the results of the
+In the current phase of the project, the [goal](/goals) is to extend the results of the
 previous project, in terms of quality, quantity and supported languages.
 Furthermore, the technical infrastructure will be developed further to provide
 a solid and vendor-independent foundation for the algorithms. Last but not
