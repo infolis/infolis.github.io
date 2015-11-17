@@ -34,6 +34,11 @@ body.home .parts .part {
   border-radius: 10px;
   background-color: white;
 }
+body.home .parts .part a { 
+  border-radius: 10px;
+  display: block;
+  width: 100%;
+}
 @media(max-width:767px){
     body.home .part img {
         height: 34px;
