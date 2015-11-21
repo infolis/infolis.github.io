@@ -25,7 +25,7 @@ the algorithms developed in the precursor project for finding links between
 publications and datasets and embedding them into existing systems.
 
 Based on the paradigms of [Linked Data](http://linkeddatabook.com/editions/1.0/) and [RESTful](http://www.ics.uci.edu/~fielding/pubs/dissertation/rest_arch_style.htm) web services,
-all the steps of the [InfoLink][http://github.com/infolis/infoLink] toolkit
+all the steps of the [InfoLink](http://github.com/infolis/infoLink) toolkit
 will be implemented as self-contained components and workflows will be set into
 place to automatically update our knowledge base with new data on a regular basis.
 
