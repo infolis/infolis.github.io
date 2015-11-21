@@ -42,7 +42,7 @@ between publications, research data and authors.
 
 It is a truth universally acknowledged that the trend to describing, archiving
 and making available of research data is gaining traction. However, this is a
-very heterogenous process.
+very heterogeneous process.
 
 On the one hand, the granularity (what is the smallest element of research data
 in need of description?) and the possible, aggregating intermediary steps vary
