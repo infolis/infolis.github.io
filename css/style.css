@@ -29,12 +29,12 @@ body.home .intro {
   border-radius: 1em;
   margin-bottom: 1em;
 }
-body.home .parts .part { 
+body.home .parts .part {
   border: 1px solid #555;
   border-radius: 10px;
   background-color: white;
 }
-body.home .parts .part a { 
+body.home .parts .part a {
   border-radius: 10px;
   display: block;
   width: 100%;

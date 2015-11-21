@@ -8,7 +8,7 @@ Project collaborators
 : * [GESIS – Leibniz Institute for the Social Sciences](http://www.gesis.org/)
   * [Research Group Data and Web Science at Mannheim University](http://dws.informatik.uni-mannheim.de/)
   * [University Library Mannheim](http://www.ub.uni-mannheim.de)
-  
+
 Granted by
 : [German Research Foundation (DFG)](http://www.dfg.de/)
 
@@ -16,7 +16,7 @@ Duration of the Project
 : * 2011 - 2013 (first phase)
   * 2014 - 2016 (second phase)
 
-In the first project phase 
+In the first project phase
 we developed heuristical algorithms to extract references to research
 datasets from publications in the field of Social Science and to integrate
 those links into the [Primo Search Portal of Mannheim University

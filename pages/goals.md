@@ -16,7 +16,7 @@ with various publications and datasets from the fields of social and economic
 studies and related disciplines in both English and German language.  To
 massively expand the corpus of texts and datasets, we are cooperating with
 national and international research institutions, repository administrators and
-publishers. 
+publishers.
 
 ## 2. Linked Data based infrastructure
 
