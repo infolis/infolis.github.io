@@ -1,5 +1,25 @@
 div.content { clear: both; }
 
+/* help */
+#help-button {
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: 1001;
+    background-color: #2277b0;
+}
+#help {
+    position: fixed;
+    top: 10%;
+    left: 10%;
+    right: 10%;
+    overflow: scroll;
+    max-height: 80%;
+    z-index: 1000;
+    background-color: white;
+    border: 2px solid green;
+}
+
 /* typography */
 body {
   color: #383838;
