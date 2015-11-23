@@ -103,9 +103,14 @@ body.home .posts {
 
 
 /* swagger overrides */
+/* most of the swagger stuff is done with JS */
 .swagger-section .swagger-ui-wrap { max-width: none; }
 
 /* Bootstrap overrides */
+code {
+    color: black !important;
+    font-size: 110% !important;
+}
 .navbar-inverse,
 .dropdown-menu
 {
