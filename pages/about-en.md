@@ -37,5 +37,5 @@ See also [our current goals](/goals), add [our blog to your RSS reader](/blog),
 follow us on [Twitter](https://twitter.com/infolis_project) and check out our
 code on [Github](https://github.com/infolis/).
 
-Figure 2 shows why linkging research data can be difficult, i.e. due to its granularity.
+Figure 2 shows why linking research data can be difficult, i.e. due to its granularity.
 {% include figure.html src="/img/32a7c93ae7.png" caption="Figure 2: What does 'ALLBUS' refer to here?" %}
