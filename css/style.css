@@ -38,7 +38,7 @@ h1, h2, h3, h4, h5, h6 {
 
 /* home page */
 body.home {
-  background-image: url('http://infolis.github.io/img/back.png');
+  background-image: url('/img/back.png');
   linear-gradient(
     rgba(255, 255, 255, 0.45),
     rgba(255, 255, 255, 0.45)
