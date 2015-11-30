@@ -46,13 +46,19 @@ body.home {
 }
 
 body.home .intro {
-  background: rgba(34,119,176,0.7);
+  background: rgba(34,119,176,0.9);
   padding: 1em;
   color: white;
   border-radius: 1em;
   margin-bottom: 1em;
 }
-body.home .parts .part {
+body.home .intro a {
+  color: #96e089;
+}
+body.home .intro a:hover {
+  font-weight: bold;
+}
+body.home .parts .part { 
   border: 1px solid #555;
   border-radius: 10px;
   background-color: white;
