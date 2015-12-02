@@ -177,6 +177,7 @@ html {
 }
 body {
     margin-bottom: 64px;
+    position: static; /* don't let bootstrap.docs.css mess with this */
 }
 .footer img {
   background-color:white;
