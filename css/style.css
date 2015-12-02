@@ -175,7 +175,7 @@ footer img {
 }
 
 footer {
-  position: absolute;
+  /* position: absolute; */
   width: 100%;
   bottom: 0;
   height: 64px;
