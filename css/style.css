@@ -169,6 +169,16 @@ li.selected { background: #ffba6f; }
 u { text-decoration: none }
 
 footer img {
-  background-color:white; 
-  max-height: 64px;
+  background-color:white;
+  max-height: 52px;
+  margin-top: 5px;
+}
+
+footer {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  height: 64px;
+  background-color: #2277b0;
+  color: white;
 }
