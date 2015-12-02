@@ -179,12 +179,12 @@ body {
     margin-bottom: 64px;
     position: static; /* don't let bootstrap.docs.css mess with this */
 }
-.footer img {
+footer.footer img {
   background-color:white;
   max-height: 52px;
   margin-top: 5px;
 }
-.footer {
+footer.footer {
   position: absolute;
   width: 100%;
   bottom: 0;
