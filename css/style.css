@@ -168,14 +168,22 @@ li.selected { background: #ffba6f; }
 /* vim syntax overrides */
 u { text-decoration: none }
 
-footer img {
+
+/* footer */
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+    margin-bottom: 64px;
+}
+.footer img {
   background-color:white;
   max-height: 52px;
   margin-top: 5px;
 }
-
-footer {
-  /* position: absolute; */
+.footer {
+  position: absolute;
   width: 100%;
   bottom: 0;
   height: 64px;
