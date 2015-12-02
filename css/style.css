@@ -167,3 +167,8 @@ li.selected { background: #ffba6f; }
 
 /* vim syntax overrides */
 u { text-decoration: none }
+
+footer img {
+  background-color:white; 
+  max-height: 64px;
+}
