@@ -52,7 +52,8 @@ body.home .intro {
   border-radius: 1em;
   margin-bottom: 1em;
 }
-body.home .intro a {
+body.home .intro a,
+footer a {
   color: #96e089;
 }
 body.home .intro a:hover {
