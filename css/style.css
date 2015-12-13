@@ -180,7 +180,6 @@ body {
     position: static; /* don't let bootstrap.docs.css mess with this */
 }
 footer.footer img {
-  background-color:white;
   max-height: 52px;
   margin-top: 5px;
 }
