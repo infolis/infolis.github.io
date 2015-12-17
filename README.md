@@ -6,7 +6,7 @@ To access the services, please head over to our [web site](http://infolis.github
 
 To start exploring our code base, the [repositories](https://github.com/infolis) for the [Infolink algorithm](https://github.com/infolis/infoLink) and the [HTTP API](https://github.com/infolis/infolis-web) are good starting points.
 
-Based in on the [Jekyll Type Theme](https://rohanchandra.github.io/project/type/)
+Based on the [Jekyll Type Theme](https://rohanchandra.github.io/project/type/)
 
 ## License
 
