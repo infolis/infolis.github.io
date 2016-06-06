@@ -1,14 +1,15 @@
-# Type Theme
+# Infolis web site
 
-![Default Type Theme blog](https://cloud.githubusercontent.com/assets/816965/5142407/19742e48-71d6-11e4-8d9d-fdfe010784f0.png)
+This repository contains the blog and static content for the [InFoLiS web application](http://infolis.github.io).
 
-A free and open-source [Jekyll](http://jekyllrb.com) theme. Great for blogs and easy to customize.
+To access the services, please head over to our [web site](http://infolis.github.io).
 
-## Get Started
+To start exploring our code base, the [repositories](https://github.com/infolis) for the [Infolink algorithm](https://github.com/infolis/infoLink) and the [HTTP API](https://github.com/infolis/infolis-web) are good starting points.
 
-[Demo](https://rohanchandra.github.io/type-theme/)
-
-[Using Type](https://rohanchandra.github.io/project/type/)
+Based on the [Jekyll Type Theme](https://rohanchandra.github.io/project/type/)
 
 ## License
-The MIT License (MIT)
+
+Web site setup, HTML and Javascript: MIT License (MIT).
+
+All texts: CC-BY.

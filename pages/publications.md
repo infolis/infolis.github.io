@@ -16,11 +16,11 @@ permalink: /publications/
 
 ## Conference Papers
 
- * Boland, K. &amp; Mathiak, B. (2013). Connecting Literature and Research Data. In <i>IASSIST 2013 - Data Innovation: Increasing Accessibility, Visibility, and Sustainability, Cologne, Germany, May 29-31, 2013</i>. 
+ * Boland, K. &amp; Mathiak, B. (2013). Connecting Literature and Research Data. In <i>IASSIST 2013 - Data Innovation: Increasing Accessibility, Visibility, and Sustainability, Cologne, Germany, May 29-31, 2013</i>.
    * [Online](http://www.iassistdata.org/conferences/2013/presentation/3556)
  * Ritze, D. &amp; Eckert, K. (2013). Data Enrichment in Discovery Systems Using Linked Data. In <i>Data Analysis, Machine Learning and Knowledge Discovery</i> (eds. Spiliopoulou, M., Schmidt-Thieme, L. &amp; Janning, R.), 455-462. Springer
    * [Link to PDF](http://dx.doi.org/10.1007/978-3-319-01595-8_49)
- * Ritze, D. &amp; Boland, K. (2013). Integration of Research Data and Research Data Links into Library Catalogues. In <i>Proceedings of the International Conference on Dublin Core and Metadata Applications</i>. 
+ * Ritze, D. &amp; Boland, K. (2013). Integration of Research Data and Research Data Links into Library Catalogues. In <i>Proceedings of the International Conference on Dublin Core and Metadata Applications</i>.
    * [Link to PDF](http://dcevents.dublincore.org/IntConf/dc-2013/paper/view/156&)
  * Ritze, D. (2012). Data Enrichment in Discovery Systems using Linked Data. Presented at the <i>Jahrestagung der Deutschen Gesellschaft für Klassifikation (GfKl)</i>. Hildesheim.
 * Ritze, D. &amp; Eckert, K. (2012). Linked Data als Infrastruktur zur Integration von Forschungsdaten und Publikationen. In <i>Vernetztes Wissen - Daten, Menschen, Systeme: 6. Konferenz der Zentralbibliothek Forschungszentrum Jülich; 5. - 7. November 2012</i> (ed. Mittermaier, B.) 107–118 (Forschungszentrum Jülich).

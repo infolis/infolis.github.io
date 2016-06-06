@@ -18,7 +18,7 @@ Projektpartner
 : * [GESIS - Leibnizinstitut für Sozialwissenschaften](http://www.gesis.org/)
   * [Research Group Data and Web Science an der Universität Mannheim](http://dws.informatik.uni-mannheim.de/)
   * [Universitätsbibliothek Mannheim](http://www.ub.uni-mannheim.de)
-  
+
 Das Projekt InFoLiS II ist das Fortsetzungsprojekt zu
 [InFoLiS](http://www.bib.uni-mannheim.de/1158.html). In Kooperation mit dem
 [Lehrstuhl für Data and Web Sciences der Universität

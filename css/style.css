@@ -1,5 +1,28 @@
 div.content { clear: both; }
 
+/* help */
+#help-button {
+    position: fixed;
+    z-index: 1000;
+    right: 0;
+    top: 0;
+}
+#help {
+    position: fixed;
+    top: 10%;
+    left: 10%;
+    right: 10%;
+    overflow: auto;
+    max-height: 80%;
+    opacity: 1;
+    z-index: 1000;
+    background: white;
+    -webkit-box-shadow: 0px 0px 78px 35px rgba(0,0,0,0.64);
+    -moz-box-shadow: 0px 0px 78px 35px rgba(0,0,0,0.64);
+    box-shadow: 0px 0px 78px 35px rgba(0,0,0,0.64);
+}
+
+
 /* typography */
 body {
   color: #383838;
@@ -15,7 +38,7 @@ h1, h2, h3, h4, h5, h6 {
 
 /* home page */
 body.home {
-  background-image: url('http://infolis.github.io/img/back.png');
+  background-image: url('/img/back.png');
   linear-gradient(
     rgba(255, 255, 255, 0.45),
     rgba(255, 255, 255, 0.45)
@@ -23,18 +46,25 @@ body.home {
 }
 
 body.home .intro {
-  background: rgba(34,119,176,0.7);
+  background: rgba(34,119,176,0.9);
   padding: 1em;
   color: white;
   border-radius: 1em;
   margin-bottom: 1em;
+}
+body.home .intro a,
+footer a {
+  color: #96e089;
+}
+body.home .intro a:hover {
+  font-weight: bold;
 }
 body.home .parts .part { 
   border: 1px solid #555;
   border-radius: 10px;
   background-color: white;
 }
-body.home .parts .part a { 
+body.home .parts .part a {
   border-radius: 10px;
   display: block;
   width: 100%;
@@ -80,9 +110,14 @@ body.home .posts {
 
 
 /* swagger overrides */
+/* most of the swagger stuff is done with JS */
 .swagger-section .swagger-ui-wrap { max-width: none; }
 
 /* Bootstrap overrides */
+code {
+    color: black !important;
+    font-size: 110% !important;
+}
 .navbar-inverse,
 .dropdown-menu
 {
@@ -133,3 +168,26 @@ li.selected { background: #ffba6f; }
 
 /* vim syntax overrides */
 u { text-decoration: none }
+
+
+/* footer */
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+    margin-bottom: 64px;
+    position: static; /* don't let bootstrap.docs.css mess with this */
+}
+footer.footer img {
+  max-height: 52px;
+  margin-top: 5px;
+}
+footer.footer {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  height: 60px;
+  background-color: #2277b0;
+  color: white;
+}
