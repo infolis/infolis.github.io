@@ -4,7 +4,7 @@ baseurl_api: "http://infolis.gesis.org/infolink"
 url: "http://infolis.github.io" # the base hostname & protocol for your site
 
 # THEME-SPECIFIC CONFIGURATION
-theme:
+theme_settings:
   # Meta
   title: InFoLiS
   avatar: logo.png
