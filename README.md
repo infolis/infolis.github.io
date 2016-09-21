@@ -1,5 +1,7 @@
 # Infolis web site
 
+[![Build Status](https://travis-ci.org/infolis/infolis.github.io.svg?branch=master)](https://travis-ci.org/infolis/infolis.github.io)
+
 This repository contains the blog and static content for the [InFoLiS web application](http://infolis.github.io).
 
 To access the services, please head over to our [web site](http://infolis.github.io).
