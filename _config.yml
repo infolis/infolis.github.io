@@ -2,6 +2,7 @@
 baseurl: "" # the subpath of your site, e.g. /blog/
 baseurl_api: "http://infolis.gesis.org/infolink"
 url: "http://infolis.github.io" # the base hostname & protocol for your site
+exclude: [vendor/bundle]
 
 # THEME-SPECIFIC CONFIGURATION
 theme_settings:
