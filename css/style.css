@@ -83,7 +83,7 @@ body.home .parts .part a {
 }
 @media(min-width:768px){
     body.home .parts img {
-        height: auto;
+        height: 125px;
         width: 128px;
     }
     body.home .part {
