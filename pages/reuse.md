@@ -17,5 +17,5 @@ See our [guidelines](#) for a step by step introduction on how to accomplish tha
 
 ## 3. Already using our services or planning to do so?
 We'd love to hear from you! 
-Of course, you can also get in touch with us in case you have any questions: [Benjamin.Zapilko (at) gesis.org](mailto:benjamin.zapilko@gesis.org)
+Of course, you can also [get in touch with us](mailto:benjamin.zapilko@gesis.org) in case you have any questions.
 
