@@ -12,7 +12,7 @@ If you want to integrate our API into your automated workflows for document proc
 
 ## 2. Thinking about adapting InfoLink to generate links for scientific fields other than Social or Economic Sciences?
 
-See our [guidelines](#) for a step by step introduction on how to accomplish that.
+See our [guidelines](/adaptation_guideline) for a step by step introduction on how to accomplish that.
 
 
 ## 3. Already using our services or planning to do so?
