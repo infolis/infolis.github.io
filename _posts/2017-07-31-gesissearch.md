@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Extension and use of the InFoLiS infrastructure at GESIS"
+title:  "Extension and reuse of the InFoLiS infrastructure at GESIS"
 date:   2017-07-31 17:00:00
 categories: infolis
 ---
