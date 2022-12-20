@@ -34,11 +34,11 @@ fachlich und sprachlich auszuweiten, auf eine solide, produktunabhängige
 technische Basis aufzusetzen und die Verknüpfungen zwischen Publikationen und
 Forschungsdaten besser zu beschreiben.
 
-{% include figure.html src="/about/32a7c93ae7.png" caption="Worauf bezieht sich 'ALLBUS' hier?" %}
+{% include figure.html src="/img/32a7c93ae7.png" caption="Worauf bezieht sich 'ALLBUS' hier?" %}
 
-{% include figure.html src="/about/infolis-recherche.jpg" caption="Recherche nach Publikationen kann dann auch verknüpfte Forschungsdaten liefern und umgekehrt" %}
+{% include figure.html src="/img/infolis-recherche.jpg" caption="Recherche nach Publikationen kann dann auch verknüpfte Forschungsdaten liefern und umgekehrt" %}
 
-{% include figure.html src="/about/visualize-links_01.png" caption="Links zwischen Forschungsdaten und Publikationen" %}
+{% include figure.html src="/img/visualize-links_01.png" caption="Links zwischen Forschungsdaten und Publikationen" %}
 
 ## Ziele von InFoLiS II
 
