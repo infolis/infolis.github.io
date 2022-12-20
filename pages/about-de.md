@@ -19,17 +19,15 @@ Projektpartner
   * [Research Group Data and Web Science an der Universität Mannheim](http://dws.informatik.uni-mannheim.de/)
   * [Universitätsbibliothek Mannheim](http://www.ub.uni-mannheim.de)
 
-Das Projekt InFoLiS II ist das Fortsetzungsprojekt zu
-[InFoLiS](http://www.bib.uni-mannheim.de/1158.html). In Kooperation mit dem
+Das Projekt InFoLiS II ist das Fortsetzungsprojekt zu InFoLiS. In Kooperation mit dem
 [Lehrstuhl für Data and Web Sciences der Universität
-Mannheim](http://dws.informatik.uni-mannheim.de/en/projects/current-projects/)
-und der
+Mannheim](http://dws.informatik.uni-mannheim.de/en/projects/current-projects/), der [Universitätsbibliothek Mannheim](https://www.bib.uni-mannheim.de/) 
+und 
 [GESIS](http://www.gesis.org/forschung/drittmittelprojekte/projektuebersicht-drittmittel/InFoLiS-ii/)
 wurden heuristische Verfahren entwickelt, um aus wissenschaftlichen
 Publikationen aus der Sozialwissenschaft Referenzen auf darin verwendete
-Forschungsdaten zu extrahieren und diese in das [Primo Suchportal der UB
-Mannheim](http://www.ub.uni-mannheim.de/133.html) und den [Datenbestandskatalog
-der GESIS](https://dbk.gesis.org/dbksearch/index.asp) zu integrieren.
+Forschungsdaten zu extrahieren und diese in das Primo Suchportal der UB
+Mannheim und den Datenbestandskatalog der GESIS zu integrieren.
 
 In der nächsten Projektphase soll es darum gehen, die Ergebnisse aus InFoLiS I
 fachlich und sprachlich auszuweiten, auf eine solide, produktunabhängige

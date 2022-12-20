@@ -19,9 +19,8 @@ Duration of the Project
 In the first project phase
 we developed heuristical algorithms to extract references to research
 datasets from publications in the field of Social Science and to integrate
-those links into the [Primo Search Portal of Mannheim University
-Library](http://www.ub.uni-mannheim.de/133.html) and the [Datenbestandskatalog
-of GESIS](https://dbk.gesis.org/dbksearch/index.asp). Figure 1 shows the basic idea behind the project. A user can search either in Primo or in the Datenbestandskatalog and gets both, relevant publications and research data. Further, they are linked to each other to know which research data is mentioned in which publication and vice versa.
+those links into the Primo Search Portal of Mannheim University
+Library and the Datenbestandskatalog of GESIS. Figure 1 shows the basic idea behind the project. A user can search either in Primo or in the Datenbestandskatalog and gets both, relevant publications and research data. Further, they are linked to each other to know which research data is mentioned in which publication and vice versa.
 
 {% include figure.html src="/img/infolis-research.png" caption="Figure 1: Seaching a publication can lead to a dataset and vice versa" %}
 
